@@ -1,5 +1,7 @@
 # FE21-CR01-EasChinta
 CodeReview1
+
+
 Hello and welcome to my first website!
 
 The most difficult part for me was the 'responsive' part. I could not figure out the right way of making my website responsive for any window size or environment (desktop, mobile, etc.). I did however give it my best and works fine for up to some size of the window when minized. I am sure that in the upcoming weeks I will have learned more about this topic. 
