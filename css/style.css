@@ -2,10 +2,46 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Mate SC", serif;
   overflow-x: hidden;
+
 }
+
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper-container {
+        position: relative;
+        top: 30vh;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
 
 header {
   background-color: #c9bbb7;
@@ -21,9 +57,10 @@ header {
 }
 
 #logo {
-  position: relative;
-  width-max: 70%;
-  width: 400px;
+  display: flex;
+  justify-content: end;
+  margin-right: 5vw;
+  width: 200px;
 }
 
 header p {
@@ -66,47 +103,33 @@ li a {
 li a:hover {
   background-color: gray;
 }
+
+
+
 /** I did not quite understand the point saying "layout as presented:2x2 images", however I made it look close to the guide. 
 */
-.container {
-  background: #ffff;
-  padding: 350px 200px 200px;
-  min-height: 100vh;
-  justify-content: center;
+
+
+
+
+
+.titleh1 {
+ display: flex;
+ justify-content: center;
+ font-size: xx-large;
 }
 
-.container .content {
-  max-width: 700px;
-}
 
-.container .content h2 {
-  font-size: 4em;
-  position: absolute;
-  top: 250px;
-}
 
-.container a {
-  display: inline-block;
-  background: #c65252;
-  color: black;
-  padding: 3px 10px;
-  text-decoration: none;
-  font-weight: 600;
-  margin-top: 5px;
-}
 
-#e-scooters {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 44.4em;
-  left: 41em;
-}
 
 figcaption {
   font-weight: bolder;
   font-size: larger;
 }
+
+
+
 
 footer {
   position: absolute;
@@ -134,3 +157,4 @@ footer {
   top: 20em;
   left: 18em;
 }
+

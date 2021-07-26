@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eas Chinta - Full-Stack Web Developer</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+   
+  </head>
+<!--
+  I am using a vsc extension to re-arrange and make everything look organised and nice called "prettier"
+-->
+  <body>
+    <header>
+      <p>Eas Chinta - Full-Stack Web Developer</p>
+    
+      <a href="https://codefactory.wien/en/home-en/"
+        ><img src="img/logo.png" alt="logo" id="logo" width="210"
+      /></a>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+
+   
+     
+  
+
+
+
+    <div class="swiper-container mySwiper">
+      <div class="titleh1">
+        <h1>This is my first Website 🖥️</h1>
+      </div><br><br><hr><br>
+      <div class="swiper-wrapper" style="margin-top: 3vh;">
+        <div class="swiper-slide">
+          <img src="img/Phone.jpg" style="width: 300px; height: 200px;"/>
+          <figcaption>
+            Samsung Galaxy S11/S20 Plus video leaks showing in real life!
+          </figcaption>
+          <a href="#">Read more</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Taxify-Scooters.jpg" style="width: 300px; height: 200px;"/>
+          <figcaption>E-scooter firm Bolt pulls out of 12 cities</figcaption>
+        <a href="#">Read more</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Debit_card_ATM.jpg" style="width: 300px; height: 200px;"/>
+          <figcaption>
+            Police are investating three ATM explosions in <br />
+            two Florida counties
+          </figcaption>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+      <footer>
+        <figure id="footerlogo">
+          <img
+            src="img/logo.png"
+            alt="CodeFactory logo"
+            width="200px"
+            height="70px"
+          />
+          <figcaption>Eas Chinta - CodeFactory 2021</figcaption>
+        </figure>
+      </footer>
+    </div>
+
+
+    
+
+
+   
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+  </body>
+</html>
