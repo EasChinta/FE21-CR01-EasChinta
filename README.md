@@ -1,6 +1,7 @@
 # FE21-CR01-EasChinta
 
 For this CodeReview, the following criteria were graded:
+120 Points reached
 
 (10 points) Create a GitHub Repository named: FE21-CR01-YourName. Push the files into it and send the link through the learning management system (lms). See an example of a GitHub link below:
 
