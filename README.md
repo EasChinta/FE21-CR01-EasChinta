@@ -1,23 +1,31 @@
 # FE21-CR01-EasChinta
-CodeReview1
 
+For this CodeReview, the following criteria were graded:
 
-Hello and welcome to my first website!
+(10 points) Create a GitHub Repository named: FE21-CR01-YourName. Push the files into it and send the link through the learning management system (lms). See an example of a GitHub link below:
 
-The most difficult part for me was the 'responsive' part. I could not figure out the right way of making my website responsive for any window size or environment (desktop, mobile, etc.). I did however give it my best and works fine for up to some size of the window when minized. I am sure that in the upcoming weeks I will have learned more about this topic. 
+https://github.com/JohnDoe/repositoryname.git
 
-On the homepage, you will find also a "Read More" link (only clickable, will not direct anywhere) that I decided to add and style a bit in order to make it look even cooler.
+Please remember to set your repository to private and please invite codefactorygit as a collaborator!
 
-Furthermore, as explained in the comments as well, the main logo on the top right is also linked to the CodeFactory website.
+(10 points) Correct usage of the HTML structure (proper order of HTML elements)
 
-In the Blog part, I was't sure what to add exactly so I decided to go with a funny pic and a link right next to the figcaption, that will actually take you to a wix website I created last year. 
+(10 points) Correct usage of <img> to present images on the web page
 
-The About me section, does not really contain anything special rather than a h2, paragraph and a picture. 
+(15 points) Correct usage of lists to show the menu (navigation bar)
 
-Last but not least, the Contact section, contains a nice form with name, last name, email and message and a 'submit' button that i wrote on 'try me' instead, which is also linked to a 'thank you' picture. 
+(20 points) Correct placement of images (layout as presented: 2x2 images) with its respective titles
 
-I wish you a happy rest of the weekend.
+(10 points) Correct position of the company logo and accompanying text (“Name Surname - Future Full Stack Web Developer“)
 
-Eas Chinta
+(10 points) Correct indentation that makes it easier to read your code
 
+(15 points) Use CSS selectors (classes and/or IDs) to style your web page (colours, font size, font style etc.).
 
+ 
+
+Bonus Points:
+
+(10 points) Use relative measurements on the width property of the elements (e.g. em, %, vw...) to make your page responsive (at least the images should resize and look nice when changing the browser size).
+
+(10 points) Add links to the menu that lead to other local HTML pages that you will additionally create. For these bonus points you are free to provide your design/layout solutions for these additional pages, e.g.: About, Contact, etc.
